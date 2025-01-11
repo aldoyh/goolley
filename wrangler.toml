@@ -1,9 +1,5 @@
-name = "goolley"
-main = "src/worker.ts"
-compatibility_date = "2024-02-12"
-
-[ai]
-binding = "AI"
+name = "worker"
+type = "javascript"
 
 # # KV Namespace binding - For more information: https://developers.cloudflare.com/workers/runtime-apis/kv
 # [[kv_namespaces]]
