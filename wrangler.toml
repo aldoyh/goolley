@@ -1,4 +1,4 @@
-name = "workers-getting-started"
+name = "goolley"
 main = "src/worker.ts"
 compatibility_date = "2024-02-12"
 
@@ -36,8 +36,7 @@ binding = "AI"
 # [env.production]
 # MY_VARIABLE = "production_value"
 
+# [env.production]
+# MY_VARIABLE = "114455"
 # [env.staging]
-# MY_VARIABLE = "staging_value"
-
-# [env.shared]
 # SHARED_VARIABLE = "shared_value"

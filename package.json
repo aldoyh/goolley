@@ -1,18 +1,19 @@
 {
-  "name": "workers-getting-started",
-  "version": "0.0.0",
+  "name": "aldoyh-goolley",
+  "version": "0.5.0",
   "private": true,
   "scripts": {
     "deploy": "wrangler deploy",
     "start": "wrangler dev"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230419.0",
-    "typescript": "^5.0.4",
-    "wrangler": "^3.0.0"
+    "@cloudflare/workers-types": "^4.20250109.0",
+    "typescript": "^5.7.3",
+    "wrangler": "^3.101.0"
   },
   "dependencies": {
-    "@cloudflare/ai": "^1.0.50",
-    "hono": "^4.0.1"
+    "@cloudflare/ai": "^1.2.2",
+    "base64-js": "^1.5.1",
+    "hono": "^4.6.16"
   }
 }
